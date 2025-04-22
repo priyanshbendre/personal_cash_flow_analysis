@@ -1,0 +1,20 @@
+{
+    "patterns_wf": {
+        "ATM ": ["ATM"],
+        "Apple Card Payment": ["APPLECARD GSBANK PAYMENT"],
+        "Apple Savings": ["APPLE GS SAVINGS TRANSFER"],
+        "Binance Crypto": ["BINANCE"],
+        "Check Deposit": ["MOBILE DEPOSIT"],
+        "Costco": ["COSTCO"],
+        "GEICO": ["GEICO"],
+        "Treasury Direct": ["APA TREAS", "TREASURY DIRECT"],
+        "Venmo": ["VENMO"],
+        "WeBull": ["Webull Financial"],
+        "Zelle": ["ZELLE"]
+    },
+    "cash_investments": [
+        "Treasury Direct",
+        "Binance Crypto",
+        "WeBull",
+    ]
+}
