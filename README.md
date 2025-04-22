@@ -39,32 +39,6 @@ Ensure the following files are in the same directory as the script:
     * `patterns_wf`: A dictionary where keys are vendor names (strings) and values are lists of strings. If any string in the list is found in a transaction's description (case-insensitive), that vendor will be assigned.
     * `cash_investments`: A list of vendor names (strings) that should be classified as 'cash_investments' when the transaction amount is negative.
 
-    Example `config.json`:
-
-    ```json
-    {
-      "patterns_wf": {
-        "Cadence Design Systems": ["CADENCE DESIGN S DIRECT DEP", "CADENCE US CADENCE TE"],
-        "ETrade": ["MSPBNA ACH TRNSFR"],
-        "Fidelity": ["FID BKG SVC LLC MONEYLINE"],
-        "TMOBILE": ["TMOBILE*AUTO PAY"],
-        "Apple Savings": ["APPLE GS SAVINGS TRANSFER"],
-        "Charles Schwab": ["SCHWAB BROKERAGE MONEYLINK"],
-        "ATM": ["ATM CASH DEPOSIT"],
-        "Tax CA State": ["FRANCHISE TAX BD CASTTAXRFD"],
-        "Tax Federal": ["IRS USATAXPYMT"],
-        "Venture X": ["CAPITAL ONE CRCARDPMT"],
-        "Apple Card Payment": ["APPLECARD GSBANK PAYMENT"],
-        "Rent": ["481 on Mathilda WEB PMTS"],
-        "Zelle": ["ZELLE FROM", "ZELLE TO"],
-        "Western Union": ["WESTERN UNION FI TRANSFER"],
-        "Wealthfront": ["Instant Pmt from WEALTHFRONT BROKERAGE LLC"],
-        "Discover": ["DISCOVER E-PAYMENT"]
-      },
-      "cash_investments": ["ETrade", "Fidelity", "Wealthfront", "Charles Schwab"]
-    }
-    ```
-
 ## Usage
 
 1.  Open your terminal or command prompt.
